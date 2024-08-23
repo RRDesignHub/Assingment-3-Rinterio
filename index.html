@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="shortcut icon" href="./assets/title_icon.png" type="image/x-icon">
   <title>Rinterio</title>
+
   <!-- google font CDN-Manrope -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,7 @@
   <!-- Fontawsom icon CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <!-- Tailwind -->
+  <!-- Tailwind & DaisyUI CDN -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -130,7 +130,7 @@
         </div>
         <!-- text contant -->
          <div class=" lg:text-left">
-          <h4 class="mx-auto lg:mx-0 bg-white text-dark-2 py-2 px-4 rounded-3xl w-fit"><i class="fa-solid fa-arrow-right-long"></i> <span class="font-bold">About Us</span></h4>
+          <h4 class="mx-auto lg:mx-0 bg-white text-dark-2 font-bold py-2 px-4 rounded-3xl w-fit"><i class="fa-solid fa-arrow-right-long"></i> <span class="font-bold">About Us</span></h4>
 
           <!-- section heading -->
           <h2 class="max-sm:text-center text-2xl lg:text-4xl font-extrabold text-dark-1 mt-4 mb-6">We design thoughtful, <br>liveable spaces</h2>
@@ -171,7 +171,7 @@
       <section class="mx-5 lg:mx-24">
         <div class="pb-16 lg:pb-28">
           <!-- section name -->
-          <h4 class="mx-auto bg-white text-dark-2 py-2 px-4 rounded-3xl w-fit"><i class="fa-solid fa-arrow-right-long"></i> <span class="font-bold">How we works</span></h4>
+          <h4 class="mx-auto bg-white text-dark-2 font-bold py-2 px-4 rounded-3xl w-fit"><i class="fa-solid fa-arrow-right-long"></i> <span class="font-bold">How we works</span></h4>
 
           <!-- section heading -->
           <h2 class="text-center text-2xl lg:text-4xl font-extrabold text-dark-1 mt-4 mb-6">Our Works Process</h2>
@@ -237,6 +237,71 @@
 
         </div>
       </section>
+
+      <!-- portfolio section -->
+       <section class=" lg:bg-white py-16 lg:py-28">
+        <div class="mx-5 lg:mx-24 ">
+          <!-- section name -->
+          <h4 class="mx-auto bg-[#abef5f33] font-bold text-dark-2 py-2 px-4 rounded-3xl w-fit"><i class="fa-solid fa-arrow-right-long"></i> <span class="font-bold">Explore our Latest works</span></h4>
+
+          <!-- section heading -->
+          <h2 class="text-center text-2xl lg:text-4xl font-extrabold text-dark-1 mt-4 mb-4 lg:mb-6">Our Latest Portfolio</h2>
+
+          <!-- section description -->
+          <p class="mx-auto text-center text-dark-2 font-medium lg:w-[55%]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+
+          <!-- portfolio items parent -->
+           <div class="grid  lg:grid-cols-8 gap-6 mt-4 lg:mt-8">
+            <!-- item 1 -->
+            <div class="lg:col-span-5 max-sm:bg-white lg:border border-[#e9e9e9] rounded-2xl p-6">
+              <div class="flex flex-col lg:flex-row lg:items-center gap-6">
+                <img src="./assets/img1.png" alt="">
+                <div>
+                  <h3 class="text-2xl font-extrabold text-dark-2">Commercial</h3>
+                  <p class="font-medium text-dark-3 mt-4 mb-5">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                  <h4 class="text-xl font-extrabold text-dark-1">View Details <i class="fa-solid fa-arrow-right-long bg-primary p-3 rounded-full -rotate-45 ms-3"></i></h4>
+                </div>
+              </div>
+            </div>
+
+            <!-- item 2 -->
+             <div class="lg:col-span-3 max-sm:bg-white lg:border border-[#e9e9e9] rounded-2xl p-6">
+              <img class="mx-auto rounded-2xl" src="./assets/img-2l.png" alt="">
+            </div>
+
+            <!-- item 3 -->
+            <div class="max-sm:hidden lg:col-span-2 max-sm:bg-white lg:border border-[#e9e9e9] rounded-2xl p-6">
+              <img class="mx-auto rounded-2xl" src="./assets/img3.png" alt="">
+            </div>
+            <div class="lg:hidden lg:col-span-2 max-sm:bg-white lg:border border-[#e9e9e9] rounded-2xl p-6">
+              <img class="mx-auto rounded-2xl" src="./assets/img-3e.png" alt="">
+            </div>
+
+            <!-- item 4 -->
+            <div class="lg:col-span-4 max-sm:bg-white lg:border border-[#e9e9e9] rounded-2xl p-6">
+              <div class="flex flex-col lg:flex-row lg:items-center gap-6">
+                <img src="./assets/img4.png" alt="">
+                <div>
+                  <h3 class="text-2xl font-extrabold text-dark-2">Commercial</h3>
+                  <p class="font-medium text-dark-3 mt-4 mb-5">The barn house captivates with its blend of rustic charm and modern.</p>
+                  <h4 class="text-xl font-extrabold text-dark-1">View Details <i class="fa-solid fa-arrow-right-long bg-primary p-3 rounded-full -rotate-45 ms-3"></i></h4>
+                </div>
+              </div>
+            </div>
+
+            <!-- item 5 -->
+            <div class="max-sm:hidden lg:col-span-2 max-sm:bg-white lg:border border-[#e9e9e9] rounded-2xl p-6">
+              <img class="mx-auto rounded-2xl" src="./assets/img5.png" alt="">
+            </div>
+            <div class="lg:hidden lg:col-span-2 max-sm:bg-white lg:border border-[#e9e9e9] rounded-2xl p-6">
+              <img class="mx-auto rounded-2xl" src="./assets/img-5m.png" alt="">
+            </div>
+            <div class="lg:hidden lg:col-span-2 max-sm:bg-white lg:border border-[#e9e9e9] rounded-2xl p-6">
+              <img class="mx-auto rounded-2xl" src="./assets/img-3e.png" alt="">
+            </div>
+           </div>
+        </div>
+       </section>
   </main>
   <footer></footer>
 </body>
